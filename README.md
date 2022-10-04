@@ -1,6 +1,12 @@
-# Plataforma integrada
+# Uppertools Emp.CAD
 
-Exercício feito com único propósito de ingresso no processo de seleção para oportunidade de desenvolvimento na Uppertools Tecnologia da Informação
+Uppertools Emp.CAD (nome fictício) se trata de um web app para cadastro de empresas dentro da aplicação via validação de CNPJ.
+
+Exercício feito com único propósito de ingresso no processo de seleção para oportunidade de desenvolvimento na Uppertools Tecnologia da Informação.
+
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
 
 
 # Justificativas
