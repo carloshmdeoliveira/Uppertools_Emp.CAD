@@ -14,6 +14,7 @@ Exercício feito com único propósito de ingresso no processo de seleção para
 * [Arquitetura](#arquitetura)
 * [Tecnologias](#tecnologias)
 * [Dificuldades](#dificuldades)
+* [Justificativa](#justificativa)
 * [Conclusão](#conclusão)
 
 # Visão Geral
@@ -36,6 +37,12 @@ Para melhor manutenção e visualização do código foi determinado o padrão m
 <p>O maior desafio sem dúvidas foi encarar C# com pouca experiência.</p>
 <p>Apesar de ser um pequeno projeto, tornou-se grande e complexo para meu nível atual de conhecimento.</p>
 
+## Justificativa
+
+Foi optado para o desenvolvimento deste projeto as tecnologias mais diretas possíveis para apresentar o máximo possível dentro das dificuldades encontradas.
+
 ## Conclusão
 
-Considerações finais!
+Primeiramente gostaria de agradecer a Uppertools por me permitir participar deste processo seletivo que para mim foi de verdadeiro e grandioso aprendizado.
+Foi uma experiência realmente engrandecedora e até o momento ainda não havia tido contato com um projeto tão complexo (e sei que na verdade isso não chega nem perto do cenário real).
+Após alguns dias de muito estudo, venho através desta lhes apresentar o meu pequeno projeto, mesmo que não finalizado, feito com muito carinho e dedicação.
