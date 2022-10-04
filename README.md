@@ -26,15 +26,15 @@ Para melhor manutenção e visualização do código foi determinado o padrão m
 
 ## Tecnologias
 
-Base de Dados: MySQL
-Framework: .NET
-Linguagem: C#
-Complementares: HTML, CSS
+<p>Base de Dados: <b>MySQL</b></p>
+<p>Framework: <b>.NET</b></p>
+<p>Linguagem: <b>C#</b></p>
+<p>Complementares: <b>HTML</b>, <b>CSS</b></p>
 
 ## Dificuldades
 
-O maior desafio sem dúvidas foi encarar C# com pouca experiência.
-Apesar de ser um pequeno projeto, tornou-se grande e complexo para meu nível atual de conhecimento.
+<p>O maior desafio sem dúvidas foi encarar C# com pouca experiência.</p>
+<p>Apesar de ser um pequeno projeto, tornou-se grande e complexo para meu nível atual de conhecimento.</p>
 
 ## Conclusão
 
