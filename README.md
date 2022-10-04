@@ -13,7 +13,7 @@ Exercício feito com único propósito de ingresso no processo de seleção para
 * [Justificativas](#justificativas)
 * [Arquitetura](#arquitetura)
 * [Tecnologias](#tecnologias)
-* [Dificuldades gerais](#dificuldades_gerais)
+* [Dificuldades gerais](#dificuldades_Gerais)
 * [Conclusão](#conclusão)
 
 # Justificativas
