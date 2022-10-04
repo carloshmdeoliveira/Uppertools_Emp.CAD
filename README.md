@@ -10,13 +10,13 @@ Exercício feito com único propósito de ingresso no processo de seleção para
 
 # Índice 
 
-* [Justificativas](#justificativas)
+* [Visão Geral](#visão-geral)
 * [Arquitetura](#arquitetura)
 * [Tecnologias](#tecnologias)
 * [Dificuldades](#dificuldades)
 * [Conclusão](#conclusão)
 
-# Justificativas
+# Visão Geral
 
 
 
