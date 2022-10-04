@@ -18,24 +18,24 @@ Exercício feito com único propósito de ingresso no processo de seleção para
 
 # Justificativas
 
-Utilize esta seção e as seguintes para melhor justificar suas escolhas, quanto a tecnologias, técnicas, padrões de design e principalmente escolhas FUNCIONAIS que foram feitas no decorrer do desenvolvimento.
-Aproveite este espaço para deixar claro também as dúvidas ou dificuldades QUE O IMPEDIRAM DE PROSSEGUIR em determinados pontos.
-Tudo isto será avaliado!!
 
-Para exemplificar, alguns subtópicos que podem ser abordados, mas que NÃO SÃO OBRIGATÓRIOS, ou seja, sinta-se a vontade para criar seus próprios tópicos:
 
 ## Arquitetura
 
-Descreva brevemente a arquitetura e o fluxo de dados da sua solução.
+Para melhor manutenção e visualização do código foi determinado o padrão model-view-controller (MVC)
 
 ## Tecnologias
 
-Quaisquers considerações em relação as tecnologias envolvidas, inclusive possíveis problemas e dificuldades.
+Base de Dados: MySQL
+Framework: .NET
+Linguagem: C#
+Complementares: HTML, CSS
 
 ## Dificuldades
 
-Sinta-se a vontade para descrever nesta seção tudo aquilo que dificultou a compreensão ou a execução de determinado ponto do exercício.
+O maior desafio sem dúvidas foi encarar C# com pouca experiência.
+Apesar de ser um pequeno projeto, tornou-se grande e complexo para meu nível atual de conhecimento.
 
 ## Conclusão
 
-Suas considerações finais em relação ao exercício!
+Considerações finais!
