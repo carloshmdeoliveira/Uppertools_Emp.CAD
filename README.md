@@ -13,7 +13,7 @@ Exercício feito com único propósito de ingresso no processo de seleção para
 * [Justificativas](#justificativas)
 * [Arquitetura](#arquitetura)
 * [Tecnologias](#tecnologias)
-* [Dificuldades gerais](#dificuldades_Gerais)
+* [Dificuldades](#dificuldades)
 * [Conclusão](#conclusão)
 
 # Justificativas
@@ -32,7 +32,7 @@ Descreva brevemente a arquitetura e o fluxo de dados da sua solução.
 
 Quaisquers considerações em relação as tecnologias envolvidas, inclusive possíveis problemas e dificuldades.
 
-## Dificuldades gerais
+## Dificuldades
 
 Sinta-se a vontade para descrever nesta seção tudo aquilo que dificultou a compreensão ou a execução de determinado ponto do exercício.
 
