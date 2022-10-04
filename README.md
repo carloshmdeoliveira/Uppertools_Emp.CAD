@@ -8,6 +8,13 @@ Exercício feito com único propósito de ingresso no processo de seleção para
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
+# Índice 
+
+* [Justificativas](#justificativas)
+* [Arquitetura](#arquitetura)
+* [Tecnologias](#tecnologias)
+* [Dificuldades gerais](#dificuldades_Gerais)
+* [Conclusão](#conclusão)
 
 # Justificativas
 
