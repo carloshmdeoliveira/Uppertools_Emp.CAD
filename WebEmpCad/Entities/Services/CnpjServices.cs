@@ -1,5 +1,6 @@
 ﻿using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System.Diagnostics;
 
 namespace WebEmpCad.Entities.Services
@@ -10,21 +11,22 @@ namespace WebEmpCad.Entities.Services
         {
             HttpClient httpClient = new HttpClient();
             var response = await httpClient.GetAsync($"https://receitaws.com.br/v1/cnpj/{cnpj}");
-            Console.Write(response);
-            System.Diagnostics.Debug.WriteLine(response);
             var jsonString = await response.Content.ReadAsStringAsync();
 
-            HandleCnpj? jsonObject = JsonConvert.DeserializeObject<HandleCnpj>(jsonString);
+            JObject jsonResponse = JObject.Parse(jsonString);
+            HandleCnpj CNPJ = new HandleCnpj();
 
-            if(jsonObject != null)
+            if ((string?)jsonResponse["nome"] != "" && (string?)jsonResponse["cnpj"] != "")
             {
-                return jsonObject;
+                CNPJ.Nome = (string?)jsonResponse["nome"];
+                CNPJ.Cnpj = (string?)jsonResponse["cnpj"];
+                CNPJ.Verificacao = true;
+            } else
+            {
+                CNPJ.Verificacao = false;
             }
 
-            HandleCnpj emptyCNPJ = new HandleCnpj();
-            emptyCNPJ.Verificacao = true;
-
-            return emptyCNPJ;
+            return CNPJ;
         }
     }
 }

@@ -16,7 +16,6 @@ namespace WebEmpCad
         {
             services.AddControllersWithViews();
             services.AddDbContext<BancoDeDados>();
-            Console.Write("Teste");
         }
 
         public void Configure(WebApplication app, IWebHostEnvironment environment)
