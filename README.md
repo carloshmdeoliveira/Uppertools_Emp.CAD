@@ -39,7 +39,7 @@ Para melhor manutenção e visualização do código foi determinado o padrão m
 
 ## Justificativa
 
-Foi optado para o desenvolvimento deste projeto as tecnologias mais diretas possíveis para apresentar o máximo possível dentro das dificuldades encontradas.
+Foi optado para o desenvolvimento deste projeto as tecnologias mais diretas para apresentar o máximo possível independente dos obstáculos encontrados.
 
 ## Conclusão
 
