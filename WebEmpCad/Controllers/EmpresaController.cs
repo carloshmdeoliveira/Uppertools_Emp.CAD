@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using WebEmpCad.Entities;
+using WebEmpCad.Entities.Services;
 using WebEmpCad.Models;
 
 namespace WebEmpCad.Controllers
@@ -53,11 +55,21 @@ namespace WebEmpCad.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nome,Cnpj")] Empresa empresa)
         {
-            if (ModelState.IsValid)
+            string cnpjSemMascara = ValidarCnpj.RetirarMascara(empresa.Cnpj);
+            bool cnpjValido = ValidarCnpj.Validar(cnpjSemMascara);
+            if (cnpjValido)
             {
-                _context.Add(empresa);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                var cs = new CnpjServices();
+                HandleCnpj retorno = await cs.Integracao(cnpjSemMascara);
+
+                if (ModelState.IsValid && retorno.Verificacao == true)
+                {
+                    empresa.Cnpj = cnpjSemMascara;
+                    empresa.Nome = retorno.Nome;
+                    _context.Add(empresa);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
             }
             return View(empresa);
         }
@@ -106,8 +118,7 @@ namespace WebEmpCad.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(
-                    ));
+                return RedirectToAction(nameof(Index));
             }
             return View(empresa);
         }

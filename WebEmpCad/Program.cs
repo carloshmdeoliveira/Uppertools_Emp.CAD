@@ -10,7 +10,4 @@ var app = builder.Build();
 
 startup.Configure(app, app.Environment);
 
-var test = new CnpjServices();
-await test.Integracao("32870761000190");
-
 app.Run();
