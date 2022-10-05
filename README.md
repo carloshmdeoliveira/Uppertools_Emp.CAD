@@ -22,7 +22,7 @@ Para melhor manutenção e visualização do código foi determinado o padrão m
 
 ## Tecnologias
 
-<p>Base de Dados: <b>MySQL</b></p>
+<p>Base de Dados: <b>SQL Server</b></p>
 <p>Framework: <b>.NET</b></p>
 <p>Linguagem: <b>C#</b></p>
 <p>Complementares: <b>HTML</b>, <b>CSS</b></p>
